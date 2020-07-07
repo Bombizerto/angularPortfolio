@@ -1,0 +1,11 @@
+.texto-presentacion-grande {
+    font-size: 38px;
+}
+
+.texto-presentacion-mediano {
+    font-size: 28px;
+}
+
+hr {
+    border-top: 5px double #5725A9;
+}

@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+
+footer {
+    color: white;
+    background-color: #5725A9;
+    width: 100%;
+    /* height: 10%; */
+    bottom: 0px;
+    position: relative;
+}
+
+.go-button {
+    color: white;
+    background-color: #FF6224;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 75px;
+    border-radius: 45%;
+}
+
+.footer-list {
+    list-style-type: none;
+    font-size: 10px;
+}
+
+.bg-color-presentacion {
+    background-color: #B8CDC6;
+    color: #5725A9;
+}
