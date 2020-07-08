@@ -11,5 +11,10 @@ export class BodyComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  ngAfterViewInit() {
+    document.querySelector('body').classList.add('bg-color-presentacion');
+  }
+  ngOnDestroy() {
+    document.querySelector('body').classList.remove('bg-color-presentacion');
+}
 }

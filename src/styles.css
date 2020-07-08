@@ -30,3 +30,26 @@ footer {
     background-color: #B8CDC6;
     color: #5725A9;
 }
+
+.bg-color-trabajo {
+    background-color: #FEBA00;
+    color: #5725A9;
+}
+
+.bg-color-contact {
+    background-color: #EB9E92;
+}
+
+.bg-color-libreria {
+    background-color: #161818;
+}
+
+.bg-color-combo {
+    background-color: #E2DED7;
+    font-size: 30px;
+    color: #5725A9;
+}
+
+.header-style {
+    height: 25%;
+}

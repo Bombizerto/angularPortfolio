@@ -28,5 +28,21 @@
 <body class="bg-color-presentacion">
     <app-root></app-root>
 </body>
+<script>
+    // $(document).ready(function() {
+    //     alert(window.location.href);
+    //     $("#prueba").attr('class', 'bg-color-trabajo');
+    // });
+
+    window.addEventListener('popstate', function() {
+        if (window.location.href.includes("presentacion")) {
+            $("#prueba").attr('class', 'bg-color-presentacion');
+        } else {
+            if (window.location.href.includes("trabajo")) {
+                $("#prueba").attr('class', 'bg-color-trabajo');
+            }
+        }
+    });
+</script>
 
 </html>

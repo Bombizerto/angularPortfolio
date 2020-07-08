@@ -1,1 +1,14 @@
-<p>header works!</p>
+<div class="col-12">
+    <div class="offset-4 col-7 mt-5">
+        <button class="btn bg-color-combo dropdown-toggle col-5" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Iñigo Perez
+        </button>
+        <div class="dropdown-menu col-5" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item " [routerLink]="['presentacion']">Home</a>
+            <a class="dropdown-item" [routerLink]="['trabajo']">Projects</a>
+            <a class="dropdown-item" href="#">Music Gallery</a>
+            <a class="dropdown-item" href="#">About</a>
+            <a class="dropdown-item" href="#">Contact</a>
+        </div>
+    </div>
+</div>
